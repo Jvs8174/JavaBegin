@@ -1,4 +1,4 @@
-1.1.1  
+1.1.1
 True 
 false false false
 
@@ -34,10 +34,11 @@ println ("Warm");
 
 1.5.1
 
-int temperatuurCelcius = 28;
+int temperatuurCelcius = 18;
 
-if (temperatuurCelcius >= 30 ); 
-println ("heet"); 
-else {
-  println (temperatuurCelcius);
+if(temperatuurCelcius >= 30){
+ println("heet");
+ 
+}else{
+  println ("Het is " + temperatuurCelcius);
 }
