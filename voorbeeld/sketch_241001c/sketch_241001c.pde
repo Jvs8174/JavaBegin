@@ -13,7 +13,7 @@ int score = 0;
 boolean[] passedBuilding;
 
 void setup() {
-  size(1000, 600);
+  size(600, 600);
   buildingX = new int[numBuildings];
   buildingGapPosition = new int[numBuildings];
   passedBuilding = new boolean[numBuildings];
